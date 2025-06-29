@@ -2,9 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-car_data = pd.read_csv(
-    r"C:\Users\DELL\Documents\CARLOS\TRIPLE TEN\07-SPRINT - Herramientas de desarrollo de software\sprint-7\vehicles_us.csv"
-)  # leer los datos
+car_data = pd.read_csv("vehicles_us.csv")  # leer los datos
 
 st.header('Tablero interactivo para visualización de datos de anuncios de venta de automóviles')
 
